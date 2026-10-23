@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meri Pyaari Sister 💖</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{margin:0;font-family:'Poppins',sans-serif;background:linear-gradient(180deg,#fff0f5,#ffe4ec);min-height:100vh;overflow-x:hidden}
+.hearts{position:fixed;inset:0;pointer-events:none;z-index:1}
+.heart{position:absolute;animation:float 7s linear infinite}
+@keyframes float{0%{transform:translateY(110vh) rotate(0deg);opacity:1}100%{transform:translateY(-10vh) rotate(360deg);opacity:0}}
+.nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,0.9);backdrop-filter:blur(10px);padding:12px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;box-shadow:0 4px 20px rgba(255,20,147,0.15)}
+.nav button{border:none;padding:10px 16px;border-radius:20px;background:white;color:#ff1493;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,0.1);cursor:pointer}
+.nav button.active{background:linear-gradient(45deg,#ff69b4,#ff1493);color:white;transform:scale(1.05)}
+.page{display:none;animation:fade 0.6s;padding:20px;position:relative;z-index:2;text-align:center}
+.page.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+.card{background:white;max-width:520px;margin:25px auto;padding:30px;border-radius:25px;box-shadow:0 15px 40px rgba(255,105,180,0.25);border:2px solid #ffc2d9}
+.big{font-size:75px}
+h1,h2{color:#ff1493;margin:10px 0}
+p{color:#555;font-size:17px;line-height:1.7}
+.btn{background:linear-gradient(45deg,#ff69b4,#ff1493);color:white;border:none;padding:13px 28px;border-radius:30px;font-weight:700;font-size:16px;cursor:pointer;margin-top:15px;box-shadow:0 5px 15px rgba(255,20,147,0.3)}
+.flowers{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:500px;margin:20px auto}
+.flowers div{background:white;padding:20px;border-radius:18px;font-size:35
